@@ -154,7 +154,9 @@ var bwOpts = {
     nodeIntegration: false,
     webSecurity: false,
     zoomFactor: athena.zoom || 1
-  }
+  },
+  width: 1920,
+  height: 1080
 };
 
 if (process.platform === "linux") {
